@@ -11,7 +11,7 @@
   box-sizing: border-box;
 }
 body{
-  background-color: var(--bg);
+  background-color: rebeccapurple;
 
   color: var(--text);
 }
@@ -30,4 +30,36 @@ a{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+@media (max-width: 1536px){
+  .container{
+    width: 1366px;
+  }
+}
+@media (max-width: 1366px){
+  .container{
+    width: 1280px;
+  }
+}
+@media (max-width: 1280px){
+  .container{
+    width: 1024px;
+    padding: 0 20x;
+  }
+}
+@media (max-width: 1024px){
+  .container{
+    width: 768px;
+  }
+}
+@media (max-width: 768px){
+  .container{
+    width: 640px;
+  }
+}
+@media (max-width: 640px){
+  .container{
+    width: 475px;
+  }
 }
