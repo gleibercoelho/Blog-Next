@@ -11,7 +11,7 @@
   box-sizing: border-box;
 }
 body{
-  background-color: rebeccapurple;
+  background-color: #0d0c22;
 
   color: var(--text);
 }
@@ -22,7 +22,7 @@ a{
 }
 
 .container{
-  background-color: rebeccapurple;
+  background-color: #0d0c22;
   width: 1536px;
   margin: auto;
   padding: 0 50px;
@@ -61,5 +61,10 @@ a{
 @media (max-width: 640px){
   .container{
     width: 475px;
+  }
+}
+@media (max-width: 475px){
+  .container{
+    width: 380px;
   }
 }

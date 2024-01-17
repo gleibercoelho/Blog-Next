@@ -29,6 +29,7 @@ display: none;
         cursor: pointer;
         font-size: 30px;
         font-weight: bold;
+        
     }
 
     .mobileLinks{
@@ -38,11 +39,12 @@ display: none;
         right: 0;
         width: 50%;
         height: calc(100vh - 100px);
-        background-color: rebeccapurple;
+        background-color: var(--bgSoft);
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 10px;
+        z-index: 2;
     }
 }
