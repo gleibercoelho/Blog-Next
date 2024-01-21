@@ -7,6 +7,8 @@
 
 .top{
     display: flex;
+    width: 90%;
+    height: 400px;
 }
 .imgContainer{
     width: 90%;
