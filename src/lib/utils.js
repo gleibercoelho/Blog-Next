@@ -1,4 +1,4 @@
-import {MongoClient} from "mongodb";
+/* import {MongoClient} from "mongodb";
 
 const database_url = process.env.MONGO;
 
@@ -13,4 +13,4 @@ client.connect()
 
 const db  = client.db("sample_mflix")
 return {db,client}
-}
+} */
