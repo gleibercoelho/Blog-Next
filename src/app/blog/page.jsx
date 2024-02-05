@@ -1,4 +1,4 @@
-import PostCard from '@/components/postCard/postCard';
+import PostCard from '../../components/postCard/postcard';
 import styles from "./blog.module.css"
 
 const getData = async () => {
