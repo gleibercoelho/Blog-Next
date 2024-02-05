@@ -1,5 +1,5 @@
 import Image from "next/image"
-import styles from "./postCard.module.css"
+import styles from "./postcard.module.css"
 import Link from "next/link"
 
 
