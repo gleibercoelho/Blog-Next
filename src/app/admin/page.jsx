@@ -1,3 +1,9 @@
+
+export const metadata = {
+  title: "Admin Page",
+  description: "Admin description",
+}
+
 const  Admin = () => {
     return (
       <div>
