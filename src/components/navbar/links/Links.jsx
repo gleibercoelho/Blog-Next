@@ -51,7 +51,7 @@ const  Links = () => {
         )
       }
       </div>
-      <Image className={styles.menuButton} src="/menu.png" onClick={() => setOpen( (prev) => !prev)} width={30} height={30} />
+      <Image className={styles.menuButton} src="/menu.png" onClick={() => setOpen( (prev) => !prev)} width={30} height={30} alt="" />
       {
         open && <div className={styles.mobileLinks}>
             {

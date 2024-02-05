@@ -10,7 +10,7 @@ const  Contact = () => {
     return (
       <div className={styles.container}>
         <div className={styles.imgContainer}>
-          <Image src="/contact.png" fill className={styles.img}/>
+          <Image src="/contact.png" fill className={styles.img} alt="" />
         </div>
         <div className={styles.formContainer}>
           <form action=""className={styles.form}>

@@ -39,12 +39,12 @@ const SinglePostPage = async ({params}) => {
   return (
     <div className={styles.container} >
       <div className={styles.imgContainer} >
-        <Image src="https://images.pexels.com/photos/8820325/pexels-photo-8820325.jpeg" fill className={styles.img} />
+        <Image src="https://images.pexels.com/photos/8820325/pexels-photo-8820325.jpeg" fill className={styles.img} alt="" />
       </div>
       <div className={styles.textContainer} >
         <h1 className={styles.title} >{post?.title}</h1>
         <div className={styles.detail} >
-          <Image src="https://images.pexels.com/photos/8820325/pexels-photo-8820325.jpeg" width={50} height={50} className={styles.avatar} />
+          <Image src="https://images.pexels.com/photos/8820325/pexels-photo-8820325.jpeg" width={50} height={50} className={styles.avatar} alt="" />
        {/*   <PostUser userId = {post?.userId} /> */}
           <div className={styles.detailText} >
             <span className={styles.detailTitle} >Published</span>
